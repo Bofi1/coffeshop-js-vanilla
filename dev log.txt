@@ -1,0 +1,3 @@
+- 30 of jun
+hice la animacion de CAFÉ. usando keyframes y en main.js un window.addEventListener("DOMContentLoaded", () => {}) y dentro 2 setTimeOut 
+uno que el display de CAFÉ sea none y el del contenido sea FLEX para que sea visible
