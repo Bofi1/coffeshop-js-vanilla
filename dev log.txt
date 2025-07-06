@@ -1,3 +1,9 @@
 - 30 of jun
 hice la animacion de CAFÉ. usando keyframes y en main.js un window.addEventListener("DOMContentLoaded", () => {}) y dentro 2 setTimeOut 
 uno que el display de CAFÉ sea none y el del contenido sea FLEX para que sea visible
+
+- 5 of jul
+hice la parte de "life´s beauty is everywhere" al "life´s beauty is" le puse 
+tracking-wider y "everywhere" leading-none para que no hubiera mucho espaciado entre cada frase  
+
+termine todos los secciones sin animaciones
