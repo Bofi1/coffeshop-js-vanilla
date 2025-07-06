@@ -27,7 +27,8 @@
 
     <!-- contenido -->
 
-    <div id="content">
+    <div id="content" class="h-[2200px] flex flex-col">
+      <!-- navbar -->
       <nav
         id="navbar"
         class="bg-[transparent] list-none w-[100vw] fixed flex absolute top-[0px] pt-[20px] pl-[40px] justify-start items-center z-50"
@@ -57,31 +58,30 @@
         </li> -->
       </nav>
 
-      <div id="" class="">
+      <div class="w-[100vw] h-[100vh] flex justify-center items-center">
+        <!-- life´s beauty is everywhere -->
         <div
           id="first"
-          class="fixed w-[100vw] h-[100vh] flex flex-col justify-center items-center"
+          class="fixed flex flex-col items-center justify-center text-white"
         >
-          <div class="flex flex-col items-center justify-center text-white">
-            <p
-              id=""
-              class="sloganShowed1 bebas-neue-regular text-[70px] tracking-wider"
-            >
-              life´s beauty is
-            </p>
-            <p class="sloganShowed2 satisfy-regular text-[200px] leading-none">
-              everywhere
-            </p>
-          </div>
+          <p
+            class="sloganShowed1 bebas-neue-regular text-[70px] tracking-wider"
+          >
+            life´s beauty is
+          </p>
+          <p class="sloganShowed2 satisfy-regular text-[200px] leading-none">
+            everywhere
+          </p>
         </div>
+        <!--  -->
 
+        <!-- coffe everyday -->
         <div
-          id="yoo"
-          class="w-[100vw] h-[100vh] bebas-neue-regular flex justify-center items-center text-white"
+          id="second"
+          class="opacity-0 w-[100vw] h-[100vh] bebas-neue-regular flex justify-center items-center text-white"
         >
           <div
-            id="second"
-            class="hours fixed text-[70px] flex flex-col justify-center items-center opacity-0 mt-[100px]"
+            class="hours fixed text-[70px] flex flex-col justify-center items-center mt-[100px]"
           >
             <p class="">coffe everyday</p>
             <p>1420 N 24th St, Phoenix, AZ 85008</p>
@@ -91,26 +91,44 @@
             <p>saturday - sunday 7:00 - 16:00</p>
           </div>
         </div>
+        <!--  -->
 
-        <div class="w-[100vw] h-[100vh] flex justify-center items-center">
-          <img
-            class="flex justify-center items-center w-[400px] opacity-0"
-            src="./src/img/qr-menu.png"
-            alt=""
-          />
-        </div>
+        <!-- qr menu -->
+        <img
+          id="qr"
+          class="opacity-0 fixed flex justify-center items-center w-[400px]"
+          src="./src/img/qr-menu.png"
+          alt=""
+        />
+        <!--  -->
 
-        <div class="w-[100vw] h-[100vh] flex justify-center items-center">
-          <div class="flex justify-center items-center opacity-0">
-            <img class="w-[350px]" src="./src/img/event1.png" alt="" />
+        <!-- promos -->
+        <div
+          id=""
+          class="fixed w-[100vw] h-[100vh] flex justify-center items-center mt-[100px]"
+        >
+          <div class="flex justify-center items-center">
             <img
-              class="w-[350px] mx-[100px]"
+              id="promos1"
+              class="w-[350px] opacity-0"
+              src="./src/img/event1.png"
+              alt=""
+            />
+            <img
+              id="promos2"
+              class="w-[350px] mx-[100px] opacity-0"
               src="./src/img/event2.png"
               alt=""
             />
-            <img class="w-[350px]" src="./src/img/event3.png" alt="" />
+            <img
+              id="promos3"
+              class="w-[350px] opacity-0"
+              src="./src/img/event3.png"
+              alt=""
+            />
           </div>
         </div>
+        <!--  -->
       </div>
     </div>
   </body>
