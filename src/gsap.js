@@ -7,9 +7,9 @@ gsap.to("#first", {
   duration: 0.5,
   scrollTrigger: {
     trigger: "#first",
-    start: "450px 300px",
+    start: "800px 300px",
     toggleActions: `play none none reverse`,
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -18,10 +18,10 @@ gsap.to("#second", {
   duration: 0.5,
   scrollTrigger: {
     trigger: "#second",
-    start: "700px center",
-    end: "1000px center",
+    start: "1050px center",
+    end: "1350px center",
     toggleActions: `play reverse play reverse`,
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -30,10 +30,10 @@ gsap.to("#qr", {
   duration: 0.5,
   scrollTrigger: {
     trigger: "#qr",
-    start: "1200px center",
-    end: "1500px center",
+    start: "1550px center",
+    end: "1850px center",
     toggleActions: `play reverse play reverse`,
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -43,10 +43,10 @@ gsap.to("#promos1", {
   duration: 0.5,
   scrollTrigger: {
     trigger: "#promos1",
-    start: "1700px center",
-    end: "2000px center",
+    start: "2200px center",
+    end: "2500px center",
     toggleActions: `play reverse play reverse`,
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -56,10 +56,10 @@ gsap.to("#promos2", {
   duration: 0.6,
   scrollTrigger: {
     trigger: "#promos2",
-    start: "1700px center",
-    end: "2000px center",
+    start: "2200px center",
+    end: "2500px center",
     toggleActions: `play reverse play reverse`,
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -69,9 +69,9 @@ gsap.to("#promos3", {
   duration: 0.7,
   scrollTrigger: {
     trigger: "#promos3",
-    start: "1700px center",
-    end: "2000px center",
+    start: "2200px center",
+    end: "2500px center",
     toggleActions: `play reverse play reverse`,
-    markers: true,
+    // markers: true,
   },
 });

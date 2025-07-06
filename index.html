@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-select no-drag">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>Vite App</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="src/style.css" />
@@ -16,7 +19,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-[white]">
+  <body class="bg-[#572706]">
     <!-- animacion logo -->
     <div
       id="preload"
@@ -27,7 +30,7 @@
 
     <!-- contenido -->
 
-    <div id="content" class="h-[2200px] flex flex-col">
+    <div id="content" class="h-[2700px] flex flex-col">
       <!-- navbar -->
       <nav
         id="navbar"
@@ -45,7 +48,7 @@
         <li
           class="logoShowed bebas-neue-regular text-white text-[100px] mx-[70px]"
         >
-          <a href="#start">CAFÉ.</a>
+          <a href="">CAFÉ.</a>
         </li>
 
         <!-- <li
@@ -128,6 +131,33 @@
             />
           </div>
         </div>
+        <!--  -->
+
+        <!-- footer -->
+        <div
+          class="footerShowed bebas-neue-regular text-white fixed flex absolute bottom-0 w-[100vw] justify-end items-center mb-[30px] mr-[50px]"
+        >
+          <div class="flex flex-col mr-[50px]">
+            <p>café.</p>
+            <p>2025 © café. All rights reserved.</p>
+          </div>
+
+          <div class="flex">
+            <img
+              class="w-[20px] h-[20px] mr-[30px]"
+              src="./src/img/fb.png"
+              alt=""
+            />
+            <img class="w-[20px] h-[20px]" src="./src/img/ig.png" alt="" />
+          </div>
+        </div>
+
+        <!-- mouse-scroll -->
+        <img
+          class="fixed mouseScroll absolute right-[0] w-[50px] mr-[50px] opacity-0"
+          src="./src/img/mouse.png"
+          alt=""
+        />
         <!--  -->
       </div>
     </div>
