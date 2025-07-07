@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-select no-drag">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -18,23 +18,24 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./src/responsive.css" />
   </head>
   <body class="bg-[#572706]">
     <!-- animacion logo -->
     <div
       id="preload"
-      class="w-[100vw] h-[100vh] flex justify-center items-center text-[56px] index-[9999]"
+      class="w-[100vw] h-[100vh] flex justify-center items-center text-[56rem] index-[9999]"
     >
-      <p class="text-white bebas-neue-regular text-[300px]">CAFÉ.</p>
+      <p class="text-white bebas-neue-regular text-[300rem]">CAFÉ.</p>
     </div>
 
     <!-- contenido -->
 
-    <div id="content" class="h-[2700px] flex flex-col">
+    <div id="content" class="h-[400vh] flex flex-col">
       <!-- navbar -->
       <nav
         id="navbar"
-        class="bg-[transparent] list-none w-[100vw] fixed flex absolute top-[0px] pt-[20px] pl-[40px] justify-start items-center z-50"
+        class="bg-[transparent] list-none w-[100vw] fixed flex absolute top-[0rem] pt-[20rem] pl-[40rem] justify-start items-center z-50"
       >
         <!-- <li class="bebas-neue-regular text-white text-[30px] rightShowed2">
           <a href="#">Location</a>
@@ -46,7 +47,7 @@
         </li> -->
 
         <li
-          class="logoShowed bebas-neue-regular text-white text-[100px] mx-[70px]"
+          class="logoShowed bebas-neue-regular text-white text-[100rem] mx-[70rem]"
         >
           <a href="">CAFÉ.</a>
         </li>
@@ -68,11 +69,11 @@
           class="fixed flex flex-col items-center justify-center text-white"
         >
           <p
-            class="sloganShowed1 bebas-neue-regular text-[70px] tracking-wider"
+            class="sloganShowed1 bebas-neue-regular text-[70rem] tracking-wider"
           >
             life´s beauty is
           </p>
-          <p class="sloganShowed2 satisfy-regular text-[200px] leading-none">
+          <p class="sloganShowed2 satisfy-regular text-[200rem] leading-none">
             everywhere
           </p>
         </div>
@@ -84,12 +85,12 @@
           class="opacity-0 w-[100vw] h-[100vh] bebas-neue-regular flex justify-center items-center text-white"
         >
           <div
-            class="hours fixed text-[70px] flex flex-col justify-center items-center mt-[100px]"
+            class="hours fixed text-[70rem] flex flex-col justify-center items-center mt-[100rem]"
           >
             <p class="">coffe everyday</p>
             <p>1420 N 24th St, Phoenix, AZ 85008</p>
 
-            <p class="mt-[50px]">hours</p>
+            <p class="mt-[50rem]">hours</p>
             <p>monday - friday 7:00 - 14:00</p>
             <p>saturday - sunday 7:00 - 16:00</p>
           </div>
@@ -99,7 +100,7 @@
         <!-- qr menu -->
         <img
           id="qr"
-          class="opacity-0 fixed flex justify-center items-center w-[400px]"
+          class="opacity-0 fixed flex justify-center items-center w-[400rem]"
           src="./src/img/qr-menu.png"
           alt=""
         />
@@ -108,24 +109,24 @@
         <!-- promos -->
         <div
           id=""
-          class="fixed w-[100vw] h-[100vh] flex justify-center items-center mt-[100px]"
+          class="fixed w-[100vw] h-[100vh] flex justify-center items-center mt-[100rem]"
         >
           <div class="flex justify-center items-center">
             <img
               id="promos1"
-              class="w-[350px] opacity-0"
+              class="w-[350rem] opacity-0 promos"
               src="./src/img/event1.png"
               alt=""
             />
             <img
               id="promos2"
-              class="w-[350px] mx-[100px] opacity-0"
+              class="w-[350rem] mx-[100rem] opacity-0 promos"
               src="./src/img/event2.png"
               alt=""
             />
             <img
               id="promos3"
-              class="w-[350px] opacity-0"
+              class="w-[350rem] opacity-0 promos"
               src="./src/img/event3.png"
               alt=""
             />
@@ -135,26 +136,26 @@
 
         <!-- footer -->
         <div
-          class="footerShowed bebas-neue-regular text-white fixed flex absolute bottom-0 w-[100vw] justify-end items-center mb-[30px] mr-[50px]"
+          class="pointer-events-none footerShowed bebas-neue-regular text-white fixed flex absolute bottom-0 w-[100vw] justify-end items-center mb-[30rem] mr-[50rem]"
         >
-          <div class="flex flex-col mr-[50px]">
+          <div class="flex flex-col mr-[50px] text-[16rem]">
             <p>café.</p>
             <p>2025 © café. All rights reserved.</p>
           </div>
 
           <div class="flex">
             <img
-              class="w-[20px] h-[20px] mr-[30px]"
+              class="w-[20rem] h-[20rem] mr-[30rem]"
               src="./src/img/fb.png"
               alt=""
             />
-            <img class="w-[20px] h-[20px]" src="./src/img/ig.png" alt="" />
+            <img class="w-[20rem] h-[20rem]" src="./src/img/ig.png" alt="" />
           </div>
         </div>
 
         <!-- mouse-scroll -->
         <img
-          class="fixed mouseScroll absolute right-[0] w-[50px] mr-[50px] opacity-0"
+          class="pointer-events-none fixed mouseScroll absolute right-[0] w-[50rem] mr-[50rem] opacity-0"
           src="./src/img/mouse.png"
           alt=""
         />
