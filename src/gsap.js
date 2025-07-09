@@ -72,6 +72,6 @@ gsap.to("#promos3", {
     start: "2200rem center",
     // end: "2500rem center",
     toggleActions: `play none none reverse`,
-    markers: true,
+    // markers: true,
   },
 });
