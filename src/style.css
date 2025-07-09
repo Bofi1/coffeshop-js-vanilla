@@ -135,14 +135,6 @@
   }
 }
 
-body {
-  background-image: url("./img/bg-photo.png");
-  background-size: cover; /* se adapta al tamaÃ±o */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed; /* evita que se mueva con el scroll */
-}
-
 /* fonts */
 
 .satisfy-regular {
